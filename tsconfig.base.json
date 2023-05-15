@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@613/fuck-me": ["packages/pub/src/index.ts"],
+      "@nx-test/is-even": ["packages/is-even/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
